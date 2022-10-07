@@ -1,0 +1,50 @@
+button{
+  border: none;
+  background-color: transparent;
+}
+/*^Normalizado^*/
+
+header{
+  height: 80px;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/834/435/original/beautiful-space-background-vector.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+header img{
+  height: 80px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+ /* border-radius: 20px; */
+}
+nav{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+}
+header nav button{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  color: black;
+  font-size: 1.7em;
+  background-color: white;
+  border-radius: 20px;
+}
+nav ul li {
+  list-style: none;
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+  cursor: pointer;
+}
+ul{
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}

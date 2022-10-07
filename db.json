@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Mantosh",
+      "age": 30,
+      "Profession": "Watchman",
+      "email": "mantosh@gmail.com",
+      "password": "test@123"
+    },
+    {
+      "id": 2,
+      "name": "Somesh",
+      "age": 30,
+      "Profession": "Data Scientist",
+      "email": "somesh@gmail.com",
+      "password": "test@123"
+    },
+    {
+      "id": 3,
+      "name": "Deepak Nagar",
+      "age": 27,
+      "Profession": "Software Engineer",
+      "email": "deepak@gmail.com",
+      "password": "test@123"
+    },
+    {
+      "id": 4,
+      "name": "Kuldeep Kumar",
+      "age": 29,
+      "Profession": "Operation Engineer",
+      "email": "kuldeep@gmail.com",
+      "password": "test@123"
+    },
+    {
+      "id": 5,
+      "name": "Vishal Rana",
+      "age": 19,
+      "Profession": "Software Developer",
+      "email": "vishal@gmail.com",
+      "password": "test@123"
+    }
+  ]
+}

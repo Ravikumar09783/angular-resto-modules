@@ -1,0 +1,34 @@
+<div class="container vh-100">
+  <div class="row justify-content-center h-100">
+      <div class="card my-auto shadow col-lg-4 col-sm-12">
+          <div class="card-body px-5">
+              <div class="text-center text-large">
+                <i class="fa fa-lock text-large" style="color: tomato;" ></i>
+              </div>
+              <div class="text-center">
+                  <h2>Welcome</h2>
+              </div>
+              <p style="color: lightslategray; text-align: center;">
+                 Please enter your login
+                  details</p>
+              <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="text-center">
+                  <div class="form-group my-3">
+                      <input type="email" id="email" placeholder="Email" class="form-control" formControlName="email"
+                          name="email" />
+                  </div>
+                  <div class="form-group my-3">
+                      <input type="password" id="password" placeholder="Password" class="form-control"
+                          formControlName="password" name="password" />
+                  </div>
+                  <input type="submit" class="btn btn-primary submit-btn" value="Login" name="">
+              </form>
+          </div>
+          <div class="card-footer text-right py-3" style="display:flex ; justify-content:space-between">
+              <!-- <small><a routerLink="../forgot-password">Forgot Password</a></small> -->
+              <small><a routerLink="../signup">Register Here!!</a></small>
+          </div>
+          <!-- <div class="card-footer text-right">
+          </div> -->
+      </div>
+  </div>
+</div>
